@@ -1,0 +1,7 @@
+USE master
+go 
+IF DB_ID('EO_AdventureWorksDW2022') IS NOT NULL
+DROP DATABASE EO_AdventureWorksDW2022
+GO
+Create DATABASE EO_AdventureWorksDW2022
+GO
