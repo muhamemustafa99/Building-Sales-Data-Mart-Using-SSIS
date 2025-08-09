@@ -3,13 +3,13 @@
 ## Overview
 This repository contains an ETL (Extract, Transform, Load) project implemented using SQL Server Integration Services (SSIS). The project processes data from various sources to populate a data warehouse with dimensional models, including fact and dimension tables.
 
-## Project Structure
-- **fact_sales_Full.dtsx**: Full load process for the sales fact table.
-- **fact_sales_Incremental.dtsx**: Incremental load process for the sales fact table.
-- **dim_date.dtsx**: ETL process for the date dimension table.
+## Project Packages
 - **dim_customer.dtsx**: ETL process for the customer dimension table.
 - **dim_product.dtsx**: ETL process for the product dimension table.
 - **dim_territory.dtsx**: ETL process for the territory dimension table.
+- **dim_date.dtsx**: ETL process for the date dimension table.
+- **fact_sales_Full.dtsx**: Full load process for the sales fact table.
+- **fact_sales_Incremental.dtsx**: Incremental load process for the sales fact table.
   
 ## Power BI Dashboard
 -Includes visualizations such as Sales by Year, Total Quantity by City, Total Sales by Country, Quantity by Year, and Sales by Top 20 Customers.
